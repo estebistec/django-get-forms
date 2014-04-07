@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <title>Search</title>
+</head>
+<body>
+<h1>Search</h1>
+<form method="get">
+{{form.as_ul}}
+<input type="submit" value="Search" />
+</form>
+{% if object_list %}
+  {% for article in object_list %}
+    <div>
+      <h2>{{ article.title }}</h2>
+      <p>{{ article.summary }}</p>
+      <p>{{ article.keywords }}</p>
+    </div>
+  {% endfor %}
+{% endif %}
+</body>
+</html>

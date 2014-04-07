@@ -1,0 +1,18 @@
+- model: demo.Article
+  pk: 1
+  fields:
+    title: How I Got My Groove Back
+    summary: Stella's memoir
+    keywords: memoir reflections
+- model: demo.Article
+  pk: 2
+  fields:
+    title: Extreme Django Head First in 24 Hours
+    summary: The best tutorial evar!
+    keywords: django webdev tutorial
+- model: demo.Article
+  pk: 3
+  fields:
+    title: Business in the Front
+    summary: Serious javascript programming
+    keywords: javascript webdev serious
